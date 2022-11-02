@@ -4,7 +4,7 @@ const Category = require('./Category');
 const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
 
-// Products belongsTo Category
+// Products belongsTo Category Here it assigns what tables belong to or have what.
 Product.belongsTo(Category, {
   foreignKey: 'category_id',
 });
@@ -25,7 +25,7 @@ Tag.belongsToMany(Product, {
   foreignKey: 'tag_id',
 
 })
-module.exports = {
+module.exports = {  // exports all the models
   Product,
   Category,
   Tag,
