@@ -1,10 +1,30 @@
 # E-commerce_BE
 
+# User Story
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
+
+# Installation
+* Clone repository: git clone https://github.com/Chrisld50/E-commerce_BE
+* All NPM packages needed for this application are already listed as dependencies in the package.json file. Run the command 'npm install' in your terminal at the root directory to install the packages. 
+* Make sure that Node.js is installed on your machine.
+* To start the application type in node server.js in the terminal. The terminal will respond stating it is running on port 3001.
+
 # Description
-The purpose of this project is to be able to have a database of items that is stored in an MYSQL database but is connected through express and utilizes sequellze to create the seeded data for the database. Then once the data is seeded into the database, we use  sequelize to create models of each table so that CRUD statements can be made on server instead of having to make then in mysql and utilizing insomnia to use CRUD statements to update the database as needed. Throughout this project I originally had difficulty when it came to the routes and how to properly code the routes so that it would work on insomnia. 
+* The application utilizes mySQL, express.js and sequelize to create a database of items that can be found in a store.
+* The application does not have a page to go to and instead utilizes Insomnia to access the database. 
+* The application utilizes CRUD operations through Insomnia to update the database. 
+* The application follows through with all 4 CRUD operations: Create, Read, Update and Delete.
+* Through Insomnia, users can add products and apply prices, descriptions, how much is in stock and more. 
+
 
 # Technologies
-mySQL Javascript node.js express.js sequelize 
+* mySQL 
+* Javascript 
+* Node.js 
+* Express.js 
+* Sequelize 
 
 # Screenshot 
 ![Alt Text](/Screenshot/E-Commerce%20Screenshot.png)
